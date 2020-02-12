@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/bongloy.net.svg)](https://www.nuget.org/packages/Bongloy.net/)
 
-The official [Bongloy](https://bongloy.com) .NET library, supporting .NET Standard 1.2+, .NET Core 1.0+, and .NET Framework 4.5+.
+The Unofficial [Bongloy](https://bongloy.com) .NET library, supporting .NET Standard 1.2+, .NET Core 1.0+, and .NET Framework 4.5+.
 
 ## Installation
 
