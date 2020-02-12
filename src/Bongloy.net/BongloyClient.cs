@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Stripe;
 
-namespace Bongloy.net
+namespace Bongloy
 {
     public class BongloyClient : IStripeClient
     {
-        public BongloyClient(                
+        public BongloyClient(
             string apiKey = null,
             string clientId = null,
             IHttpClient httpClient = null,
@@ -21,6 +21,8 @@ namespace Bongloy.net
             this.HttpClient = httpClient ?? BuildDefaultHttpClient();
             this.ApiBase = DefaultApiBase;
             this.ConnectBase = connectBase ?? DefaultConnectBase;
+
+            StripeConfiguration.StripeClient = this;
         }
 
         /// <summary>Default base URL for Stripe's API.</summary>
