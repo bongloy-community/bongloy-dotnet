@@ -88,7 +88,14 @@ namespace Bongloy
         private static T ProcessResponse<T>(StripeResponse response)
             where T : IStripeEntity
         {
-            if (response.StatusCode != HttpStatusCode.Created)
+            HttpStatusCode httpStatus = HttpStatusCode.Created;
+
+            if(response.StatusCode == HttpStatusCode.OK)
+            {
+                httpStatus = HttpStatusCode.OK;
+            }
+
+            if (response.StatusCode != httpStatus)
             {
                 throw BuildStripeException(response);
             }

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bongloy.net", "Bongloy.net\Bongloy.net.csproj", "{1EE0BA5A-BF32-40E4-964B-EE4A37384C7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BongloyTests", "BongloyTests\BongloyTests.csproj", "{4CFDF4D4-00CE-4EF6-B3C6-40F473055A72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{1EE0BA5A-BF32-40E4-964B-EE4A37384C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE0BA5A-BF32-40E4-964B-EE4A37384C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE0BA5A-BF32-40E4-964B-EE4A37384C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFDF4D4-00CE-4EF6-B3C6-40F473055A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFDF4D4-00CE-4EF6-B3C6-40F473055A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFDF4D4-00CE-4EF6-B3C6-40F473055A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFDF4D4-00CE-4EF6-B3C6-40F473055A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
