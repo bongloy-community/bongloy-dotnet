@@ -36,7 +36,7 @@ From within Visual Studio:
 ## Usage
 
 ```c#
-var bongloyApiKey = "BONGLOY_SECRET_KEY";
+var bongloyApiKey = "sk_test_***";
 
 new BongloyClient(bongloyApiKey);
 
@@ -44,8 +44,8 @@ var options = new ChargeCreateOptions
 {
     Amount = 2000,
     Currency = "USD",
-    Source = token_source,
-    Description = "My First Test Charge (created for API docs)",
+    Source = "6b1ca112-add7-4bc6-b520-829e004c0580",
+    Description = "My First Test Charge",
 };
 
 var service = new ChargeService();
