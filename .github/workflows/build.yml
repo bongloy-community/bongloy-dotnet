@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet: [ '2.2.103', '3.0.100', '3.1.100' ]
+        dotnet: [ '2.2.207', '3.1.101' ]
     name: Dotnet ${{ matrix.dotnet }}
     steps:
     - uses: actions/checkout@v2
