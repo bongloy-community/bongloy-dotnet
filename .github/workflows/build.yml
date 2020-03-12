@@ -16,6 +16,6 @@ jobs:
       with:
         dotnet-version: ${{ matrix.dotnet }}
     - name: Build with dotnet
-      run: dotnet build --configuration Release src\Bongloy.net
+      run: dotnet build --configuration Release src/Bongloy.net
     - name: Unit Tests
-      run: dotnet test src\BongloyTests\BongloyTests.csproj
+      run: dotnet test src/BongloyTests/BongloyTests.csproj
