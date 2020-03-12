@@ -10,7 +10,7 @@
     <PackageId>Bongloy.net</PackageId>
     <PackageTags>bongloy;payment;credit;cards;money;gateway;paypal;braintree</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/khomsovon/bongloy-dotnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/bongloy-community/bongloy-dotnet</PackageProjectUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.2' ">$(PackageTargetFallback);netcoreapp1.0</PackageTargetFallback>
