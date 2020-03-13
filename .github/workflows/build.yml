@@ -12,10 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v2
       with:
         dotnet-version: ${{ matrix.dotnet }}
     - name: Build with dotnet
-      run: dotnet build --configuration Release src/Bongloy.net
+      run: dotnet build --configuration Debug src/Bongloy.net
     - name: Unit Tests
       run: dotnet test src/BongloyTests/BongloyTests.csproj
